@@ -1,0 +1,31 @@
+GET http://localhost:3001/projects
+
+###
+
+GET http://localhost:3001/projects/64ed02b1753f3e32ac652cf0
+
+###
+
+POST http://localhost:3001/projects
+Content-Type: application/json
+
+{
+    "title": "test",
+    "description": "t",
+    "tech_stack": "t",
+    "code_url": "t",
+    "website_url": "t",
+    "photo_url": "t"
+}
+
+###
+
+DELETE http://localhost:3001/projects/64efb6f97c47205722797154
+
+###
+PATCH http://localhost:3001/projects/64efa32ee09fbf33568a5e2b
+Content-Type: application/json
+
+{
+    "website_url": ""
+}
