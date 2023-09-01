@@ -1,9 +1,9 @@
 # Personal-Website-Backend
 Backend repository corresponding to the [frontend repository](https://github.com/JoshLiCoding/Personal-Website-Frontend)
 
-http://personal-website-env.eba-cx9qpdfz.us-east-2.elasticbeanstalk.com/projects
+https://joshlibackend.ca/projects
 
-Express.js server hosted on AWS Elastic Beanstalk. That server fetches data from MongoDB Atlas with links that correspond to images stored on AWS S3.
+Express.js server hosted on AWS Elastic Beanstalk (Domain with Route 53 and Certificate Manager). That server fetches data from MongoDB Atlas with links that correspond to images stored on AWS S3.
 
 ## Description
 Contains GET all HTTP response, displayed as JSON
