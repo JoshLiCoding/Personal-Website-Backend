@@ -5,6 +5,7 @@ const Project = require("../models/project");
 // Getting All
 router.get("/", async (req, res) => {
   try {
+    res.set("Access-Control-Allow-Origin", "*");
     const projects = await Project.find();
     res.json(projects);
   } catch (err) {
