@@ -1,4 +1,4 @@
-GET http://localhost:3001/projects
+GET http://localhost:8080/projects
 
 ###
 
@@ -6,16 +6,16 @@ GET http://localhost:3001/projects/64ed02b1753f3e32ac652cf0
 
 ###
 
-POST http://localhost:3001/projects
+POST http://localhost:8080/projects
 Content-Type: application/json
 
 {
-    "title": "test",
-    "description": "t",
-    "tech_stack": "t",
-    "code_url": "t",
-    "website_url": "t",
-    "photo_url": "t"
+    "title": "Personal Website",
+    "description": "You're on it right now!",
+    "tech_stack": "React.js, Express.js (Node.js), MongoDB, AWS S3/Elastic Beanstalk",
+    "code_url": "https://github.com/JoshLiCoding/Personal-Website-Frontend",
+    "website_url": "https://joshuali.ca/",
+    "photo_url": "https://jl-personal-website-bucket.s3.ca-central-1.amazonaws.com/personalthumbnail.png"
 }
 
 ###

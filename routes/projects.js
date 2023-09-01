@@ -6,7 +6,8 @@ const Project = require("../models/project");
 router.get("/", async (req, res) => {
   try {
     res.set("Access-Control-Allow-Origin", "*");
-    const projects = await Project.find();
+    const sort = { time: -1 };
+    const projects = await Project.find().sort(sort);
     res.json(projects);
   } catch (err) {
     res.status(500).json({ message: err.message });
