@@ -1,5 +1,5 @@
 # Personal-Website-Backend
-The personal website backend repository corresponding to the [frontend repository](https://github.com/JoshLiCoding/Personal-Website-Frontend)
+Backend repository corresponding to the [frontend repository](https://github.com/JoshLiCoding/Personal-Website-Frontend)
 
 http://personal-website-env.eba-cx9qpdfz.us-east-2.elasticbeanstalk.com/projects
 
